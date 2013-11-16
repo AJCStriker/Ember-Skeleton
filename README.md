@@ -6,7 +6,6 @@ A starting project with file layout and Gruntfile for Ember development.
 This package is setup to use:
 * Coffeescript
 * Stylus
-* Nib
 * Ember.js
 * Handlebars
 
