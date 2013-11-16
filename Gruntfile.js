@@ -50,7 +50,13 @@ module.exports = function(grunt) {
             compile: {
                 options: {
                     compress: "true",
-                    urlfunc: 'embedurl'
+                    urlfunc: 'embedurl',
+                    use: [
+                        'jeet'
+                    ],
+                    import: [
+                        'nib'
+                    ]
                 },
                 files: {
                     'dist/final/public/css/theme.css': ['src/**/*.styl'] // compile and concat into single file
