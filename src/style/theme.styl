@@ -1,3 +1,12 @@
 body
   font-family "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial
-  background-color beige
+
+// Mobile
+html
+  background red
+
+// Desktop (remember, mobile first by default)
+bp(850px)
+html
+  background blue
+endbp()

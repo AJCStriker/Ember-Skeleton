@@ -52,10 +52,10 @@ module.exports = function(grunt) {
                     compress: "true",
                     urlfunc: 'embedurl',
                     use: [
-                        'jeet'
+                        require('jeet')
                     ],
                     import: [
-                        'nib'
+
                     ]
                 },
                 files: {
